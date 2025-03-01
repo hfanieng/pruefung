@@ -1,6 +1,6 @@
 ---
-title: Weiterentwicklung des Wikis und intern Teileprojekten des unternehmensinternen Frameworks
-description: In diesem Projekt wird ein unternehmensinternes Framework entwickelt, das die Entwicklung von Webanwendungen erleichtern soll.
+title: Weiterentwicklung des Wikis und unternehmensinterner Teileprojekte
+description: In diesem Projekt wird ein unternehmensinternes Framework entwickelt, das die Entwicklung von Anwendungen erleichtern soll.
 ---
 
 ## Erste Schritte
