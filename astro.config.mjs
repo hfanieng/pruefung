@@ -8,19 +8,19 @@ export default defineConfig({
 		starlight({
 			title: 'My Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/devsfiae',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Anleitungen',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Erste Schritte', slug: '00/welcome' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Abschlussprüfungen',
+					autogenerate: { directory: '01' },
 				},
 			],
 		}),
