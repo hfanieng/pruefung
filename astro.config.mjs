@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Mysteryland.biz',
 			social: {
 				github: 'https://github.com/devsfiae',
 			},
@@ -21,6 +21,14 @@ export default defineConfig({
 				{
 					label: 'Abschlussprüfungen',
 					autogenerate: { directory: '01' },
+				},
+				{
+					label: 'Praktikum',
+					autogenerate: { directory: '02' },
+				},
+				{
+					label: 'Projekt',
+					autogenerate: { directory: '03' },
 				},
 			],
 		}),
